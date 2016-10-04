@@ -1,0 +1,7 @@
+
+
+archetype:generate
+
+871 -- quickstart
+
+874 -- webapp

@@ -1,0 +1,1366 @@
++ Error stacktraces are turned on.
+Maven version: 2.0.7
+Java version: 1.6.0_35
+OS name: "windows 7" version: "6.1" arch: "amd64"
+[DEBUG] Building Maven user-level plugin registry from: 'C:\Users\Z_Z.W\.m2\plugin-registry.xml'
+[DEBUG] Building Maven global-level plugin registry from: 'D:\01_opensource\programmes\apache-maven-2.0.7\bin\..\conf\plugin-registry.xml'
+[INFO] Scanning for projects...
+[INFO] ----------------------------------------------------------------------------
+[INFO] Building template-quickstart
+[INFO]    task-segment: [package]
+[INFO] ----------------------------------------------------------------------------
+[DEBUG] maven-resources-plugin: resolved to version 3.0.1 from repository central
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::30 for project: null:maven-resources-plugin:maven-plugin:3.0.1 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::30 for project: org.apache.maven.plugins:maven-plugins:pom:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::18 for project: org.apache.maven:maven-parent:pom:30 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-resources-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.0.1 as it requires Maven version 3.0
+[DEBUG] Trying (,3.0.1)
+[DEBUG] Found 3.0.0
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::28 for project: null:maven-resources-plugin:maven-plugin:3.0.0 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::27 for project: org.apache.maven.plugins:maven-plugins:pom:28 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::17 for project: org.apache.maven:maven-parent:pom:27 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-resources-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.0.0 as it requires Maven version 3.0
+[DEBUG] Trying (,3.0.0)
+[DEBUG] Found 2.7
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::25 for project: null:maven-resources-plugin:maven-plugin:2.7 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::24 for project: org.apache.maven.plugins:maven-plugins:pom:25 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::14 for project: org.apache.maven:maven-parent:pom:24 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-resources-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO] Ignoring available plugin update: 2.7 as it requires Maven version 2.2.1
+[DEBUG] Trying (,2.7)
+[DEBUG] Found 2.6
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::23 for project: null:maven-resources-plugin:maven-plugin:2.6 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::22 for project: org.apache.maven.plugins:maven-plugins:pom:23 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::11 for project: org.apache.maven:maven-parent:pom:22 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-resources-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG] maven-compiler-plugin: resolved to version 3.5.1 from repository central
+[DEBUG] Adding managed dependencies for unknown:maven-compiler-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.5.1 as it requires Maven version 3.0
+[DEBUG] Trying (,3.5.1)
+[DEBUG] Found 3.5
+[DEBUG] Adding managed dependencies for unknown:maven-compiler-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.5 as it requires Maven version 3.0
+[DEBUG] Trying (,3.5)
+[DEBUG] Found 3.3
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::27 for project: null:maven-compiler-plugin:maven-plugin:3.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::26 for project: org.apache.maven.plugins:maven-plugins:pom:27 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::16 for project: org.apache.maven:maven-parent:pom:26 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-compiler-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:provided
+[INFO] Ignoring available plugin update: 3.3 as it requires Maven version 2.2.1
+[DEBUG] Trying (,3.3)
+[DEBUG] Found 3.2
+[DEBUG] Adding managed dependencies for unknown:maven-compiler-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO] Ignoring available plugin update: 3.2 as it requires Maven version 2.0.9
+[DEBUG] Trying (,3.2)
+[DEBUG] Found 3.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::24 for project: null:maven-compiler-plugin:maven-plugin:3.1 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::23 for project: org.apache.maven.plugins:maven-plugins:pom:24 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::13 for project: org.apache.maven:maven-parent:pom:23 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-compiler-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[INFO] Ignoring available plugin update: 3.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,3.1)
+[DEBUG] Found 3.0
+[DEBUG] Adding managed dependencies for unknown:maven-compiler-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 3.0 as it requires Maven version 2.0.9
+[DEBUG] Trying (,3.0)
+[DEBUG] Found 2.5.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::22 for project: null:maven-compiler-plugin:maven-plugin:2.5.1 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::21 for project: org.apache.maven.plugins:maven-plugins:pom:22 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::10 for project: org.apache.maven:maven-parent:pom:21 from the repository.
+[INFO] Ignoring available plugin update: 2.5.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.5.1)
+[DEBUG] Found 2.5
+[INFO] Ignoring available plugin update: 2.5 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.5)
+[DEBUG] Found 2.4
+[INFO] Ignoring available plugin update: 2.4 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.4)
+[DEBUG] Found 2.3.2
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::18 for project: null:maven-compiler-plugin:maven-plugin:2.3.2 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::16 for project: org.apache.maven.plugins:maven-plugins:pom:18 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::7 for project: org.apache.maven:maven-parent:pom:16 from the repository.
+[INFO] Ignoring available plugin update: 2.3.2 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.3.2)
+[DEBUG] Found 2.3.1
+[INFO] Ignoring available plugin update: 2.3.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.3.1)
+[DEBUG] Found 2.3
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::16 for project: null:maven-compiler-plugin:maven-plugin:2.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::15 for project: org.apache.maven.plugins:maven-plugins:pom:16 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::6 for project: org.apache.maven:maven-parent:pom:15 from the repository.
+[INFO] Ignoring available plugin update: 2.3 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.3)
+[DEBUG] Found 2.2
+[INFO] Ignoring available plugin update: 2.2 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.2)
+[DEBUG] Found 2.1
+[INFO] Ignoring available plugin update: 2.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.1)
+[DEBUG] Found 2.0.2
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins::8 for project: null:maven-compiler-plugin:maven-plugin:2.0.2 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::5 for project: org.apache.maven.plugins:maven-plugins:pom:8 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::3 for project: org.apache.maven:maven-parent:pom:5 from the repository.
+[DEBUG] maven-surefire-plugin: resolved to version 2.19.1 from repository central
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.19.1 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.19.1
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.19.1
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.19.1
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.19.1
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   org.apache.maven:maven-core:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.2.1
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.9
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.6
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:4.12
+[DEBUG]   org.hamcrest:hamcrest-library:jar:1.3
+[DEBUG]   org.easytesting:fest-assert:jar:1.4
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.19.1 as it requires Maven version 2.2.1
+[DEBUG] Trying (,2.19.1)
+[DEBUG] Found 2.19
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.19 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.19
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.19
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.19
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.19
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   org.apache.maven:maven-core:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.2.1
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.9
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.6
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:4.12
+[DEBUG]   org.hamcrest:hamcrest-library:jar:1.3
+[DEBUG]   org.easytesting:fest-assert:jar:1.4
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.19 as it requires Maven version 2.2.1
+[DEBUG] Trying (,2.19)
+[DEBUG] Found 2.18.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.18.1 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.18.1
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.18.1
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.18.1
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.18.1
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   org.apache.maven:maven-core:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.2.1
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.18.1 as it requires Maven version 2.2.1
+[DEBUG] Trying (,2.18.1)
+[DEBUG] Found 2.18
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.18 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::25 for project: org.apache.maven.surefire:surefire:pom:2.18 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::15 for project: org.apache.maven:maven-parent:pom:25 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.18
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.18
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.18
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.18
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   org.apache.maven:maven-core:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.2.1
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.18 as it requires Maven version 2.2.1
+[DEBUG] Trying (,2.18)
+[DEBUG] Found 2.17
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.17 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.17
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.17
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.17
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.17
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.17 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.17)
+[DEBUG] Found 2.16
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.16 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.16
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.16
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.16
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.16
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.4
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.16 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.16)
+[DEBUG] Found 2.15
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.15 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.15
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.15
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.15
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.15
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.4
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   com.google.code.findbugs:jsr305:jar:2.0.1:provided
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.15 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.15)
+[DEBUG] Found 2.14.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.14.1 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.14.1
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   commons-io:commons-io:jar:2.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.14.1
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.14.1
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.14.1
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.4
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.14.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.14.1)
+[DEBUG] Found 2.14
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.14 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.14
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.14
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.14
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.14
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.3
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.4
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.14 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.14)
+[DEBUG] Found 2.13
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.13 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.13
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.13
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.13
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.13
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-shared-utils:jar:0.2
+[DEBUG]   org.apache.maven.shared:maven-verifier:jar:1.4
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.13 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.13)
+[DEBUG] Found 2.12.4
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.12.4 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.12.4
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.12.4
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.12.4 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.12.4)
+[DEBUG] Found 2.12.3
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.12.3 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.12.3
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.12.3
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.12.3
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.12.3
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[INFO] Ignoring available plugin update: 2.12.3 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.12.3)
+[DEBUG] Found 2.12.2
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.12.2 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.12.2
+[DEBUG]   org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.12.2
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.12.2
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.12.2
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:3.0.4
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.12.2 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.12.2)
+[DEBUG] Found 2.12.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.12.1 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.12.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.12.1
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.12.1
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.12.1
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.12.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.12.1)
+[DEBUG] Found 2.12
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.12 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.12
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.12
+[DEBUG]   org.apache.maven.surefire:surefire-grouper:jar:2.12
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.12
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.12 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.12)
+[DEBUG] Found 2.11
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.11 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::20 for project: org.apache.maven.surefire:surefire:pom:2.11 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::9 for project: org.apache.maven:maven-parent:pom:20 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.11
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.11
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.11
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.1
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.11 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.11)
+[DEBUG] Found 2.10
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.10 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.10
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.10
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.10
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.1
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.10 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.10)
+[DEBUG] Found 2.9
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.9 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::19 for project: org.apache.maven.surefire:surefire:pom:2.9 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.9
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.9
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.1
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.9 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.9)
+[DEBUG] Found 2.8.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.8.1 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.8.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.8.1
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.8.1
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.7
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.8.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.8.1)
+[DEBUG] Found 2.8
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.8 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.8
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.8
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.8
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.7
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.8 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.8)
+[DEBUG] Found 2.7.2
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.7.2 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::18 for project: org.apache.maven.surefire:surefire:pom:2.7.2 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::8 for project: org.apache.maven:maven-parent:pom:18 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.7.2
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.7.2
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.7.2
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[DEBUG]   junit:junit:jar:3.8.1:test
+[INFO] Ignoring available plugin update: 2.7.2 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.7.2)
+[DEBUG] Found 2.7.1
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.7.1 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.7.1
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.7.1
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.7.1
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[INFO] Ignoring available plugin update: 2.7.1 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.7.1)
+[DEBUG] Found 2.7
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.7 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.7
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.7
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.7
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   jmock:jmock:jar:1.0.1:test
+[INFO] Ignoring available plugin update: 2.7 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.7)
+[DEBUG] Found 2.6
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.6 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.6
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.6
+[DEBUG]   org.apache.maven.surefire:maven-surefire-common:jar:2.6
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.5
+[INFO] Ignoring available plugin update: 2.6 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.6)
+[DEBUG] Found 2.5
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.5 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.5
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.5
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.9
+[INFO] Ignoring available plugin update: 2.5 as it requires Maven version 2.0.9
+[DEBUG] Trying (,2.5)
+[DEBUG] Found 2.4.3
+[DEBUG] Retrieving parent-POM: org.apache.maven.surefire:surefire::2.4.3 for project: org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::7 for project: org.apache.maven.surefire:surefire:pom:2.4.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache::4 for project: org.apache.maven:maven-parent:pom:7 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG]   org.apache.maven.surefire:surefire-api:jar:2.4.3
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.4.3
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG] maven-jar-plugin: resolved to version 3.0.2 from repository central
+[DEBUG] Adding managed dependencies for unknown:maven-jar-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.0.2 as it requires Maven version 3.0
+[DEBUG] Trying (,3.0.2)
+[DEBUG] Found 3.0.1
+[DEBUG] Adding managed dependencies for unknown:maven-jar-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.0.1 as it requires Maven version 3.0
+[DEBUG] Trying (,3.0.1)
+[DEBUG] Found 3.0.0
+[DEBUG] Adding managed dependencies for unknown:maven-jar-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+[INFO] Ignoring available plugin update: 3.0.0 as it requires Maven version 3.0
+[DEBUG] Trying (,3.0.0)
+[DEBUG] Found 2.6
+[DEBUG] Adding managed dependencies for unknown:maven-jar-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:provided
+[INFO] Ignoring available plugin update: 2.6 as it requires Maven version 2.2.1
+[DEBUG] Trying (,2.6)
+[DEBUG] Found 2.5
+[DEBUG] Adding managed dependencies for unknown:maven-jar-plugin
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:provided
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:maven-plugin:2.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus::2.0.6 for project: null:plexus-utils:jar:2.0.5 from the repository.
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:2.0.5:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven::2.0.6 for project: null:maven-artifact:jar:null from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-artifact
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus::1.0.11 for project: null:plexus-utils:jar:1.4.1 from the repository.
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-settings
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-settings:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-model
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-containers::1.0.3 for project: null:plexus-container-default:jar:1.0-alpha-9-stable-1 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus::1.0.4 for project: org.codehaus.plexus:plexus-containers:pom:1.0.3 from the repository.
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]         junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]         classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-profile
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-profile:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.apache.maven:maven-model:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact-manager
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-artifact-manager:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-repository-metadata
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Retrieving parent-POM: org.apache.maven.wagon:wagon::1.0-beta-2 for project: null:wagon-provider-api:jar:1.0-beta-2 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent::4 for project: org.apache.maven.wagon:wagon:pom:1.0-beta-2 from the repository.
+[DEBUG] Adding managed dependencies for unknown:wagon-provider-api
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-registry
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-plugin-registry:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]       junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-components::1.1.15 for project: null:plexus-interpolation:jar:1.13 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus::2.0.3 for project: org.codehaus.plexus:plexus-components:pom:1.1.15 from the repository.
+[DEBUG] Adding managed dependencies for unknown:plexus-interpolation
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.5
+[DEBUG]   junit:junit:jar:3.8.2:test
+[DEBUG]   org.codehaus.plexus:plexus-interpolation:jar:1.13:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.shared:maven-shared-components::17 for project: org.apache.maven.shared:maven-filtering:jar:1.1 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.shared:maven-filtering
+[DEBUG]   junit:junit:jar:3.8.1:test
+[DEBUG]   org.apache.maven.shared:maven-filtering:jar:1.1:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-core
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-core:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.wagon:wagon-providers::1.0-beta-2 for project: null:wagon-file:jar:1.0-beta-2 from the repository.
+[DEBUG] Adding managed dependencies for unknown:wagon-file
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-file:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-parameter-documenter
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Adding managed dependencies for unknown:wagon-http-lightweight
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:wagon-http-shared
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]         org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]           jtidy:jtidy:jar:4aug2000r7-dev:runtime (selected for runtime)
+[DEBUG]         xml-apis:xml-apis:jar:1.0.b2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.reporting:maven-reporting::2.0.6 for project: null:maven-reporting-api:jar:null from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-reporting-api
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.doxia:doxia::1.0-alpha-7 for project: null:doxia-sink-api:jar:1.0-alpha-7 from the repository.
+[DEBUG]         org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-error-diagnostics
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       commons-cli:commons-cli:jar:1.0:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-api
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:wagon-ssh-external
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Adding managed dependencies for unknown:wagon-ssh-common
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]         org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]           org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: plexus:plexus-containers::1.0.2 for project: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-7 from the repository.
+[DEBUG] Retrieving parent-POM: plexus:plexus-root::1.0.3 for project: plexus:plexus-containers:pom:1.0.2 from the repository.
+[DEBUG]             org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-7:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]             plexus:plexus-utils:jar:1.0.2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-descriptor
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-monitor
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:wagon-ssh
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         com.jcraft:jsch:jar:0.1.27:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]       classworlds:classworlds:jar:1.1:runtime (removed - nearer found: 1.1-alpha-2)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus::2.0.2 for project: null:plexus-utils:jar:1.5.15 from the repository.
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.5.15:runtime (removed - nearer found: 2.0.5)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-components::1.1.14 for project: null:plexus-interpolation:jar:1.12 from the repository.
+[DEBUG] Adding managed dependencies for unknown:plexus-interpolation
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.5
+[DEBUG]   junit:junit:jar:3.8.2:test
+[DEBUG]     org.codehaus.plexus:plexus-interpolation:jar:1.12:runtime (removed - nearer found: 1.13)
+[DEBUG] Retrieving parent-POM: org.sonatype.spice:spice-parent::10 for project: org.sonatype.plexus:plexus-build-api:jar:0.0.4 from the repository.
+[DEBUG] Retrieving parent-POM: org.sonatype.forge:forge-parent::3 for project: org.sonatype.spice:spice-parent:pom:10 from the repository.
+[DEBUG] Adding managed dependencies for org.sonatype.plexus:plexus-build-api
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-beta-1
+[DEBUG]   org.codehaus.plexus:plexus-component-annotations:jar:1.0-beta-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.5
+[DEBUG]   org.mortbay.jetty:jetty:jar:6.1.14
+[DEBUG]   org.mortbay.jetty:jetty-client:jar:6.1.14
+[DEBUG]   junit:junit:jar:4.5:test
+[DEBUG]     org.sonatype.plexus:plexus-build-api:jar:0.0.4:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.8:runtime (removed - nearer found: 2.0.5)
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.wagon:wagon-file:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]       org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         jtidy:jtidy:jar:4aug2000r7-dev:runtime (selected for runtime)
+[DEBUG]       xml-apis:xml-apis:jar:1.0.b2:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.apache.maven:maven-repository-metadata:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.apache.maven:maven-error-diagnostics:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     commons-cli:commons-cli:jar:1.0:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-plugin-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]       org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]         org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-7:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]           plexus:plexus-utils:jar:1.0.2:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-plugin-descriptor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]       com.jcraft:jsch:jar:0.1.27:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     classworlds:classworlds:jar:1.1-alpha-2:runtime (removed - nearer found: 1.1)
+[DEBUG]     classworlds:classworlds:jar:1.1:runtime (selected for runtime)
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 2.0.5)
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]     junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 2.0.5)
+[DEBUG]     classworlds:classworlds:jar:1.1-alpha-2:runtime (removed - nearer found: 1.1)
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = org.apache.maven.project.MavenProject@9fc33205
+[DEBUG]   (s) resources = [org.apache.maven.model.Resource@1b50f0a7]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2cea3932
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[INFO] [resources:resources]
+[DEBUG] properties used {java.runtime.name=Java(TM) SE Runtime Environment, maven.compiler.target=1.8, sun.boot.library.path=C:\Program Files\Java\jdk1.6.0_35\jre\bin, java.vm.version=20.10-b01, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\02_workspace\myproject\templatedemo-idea\template-quickstart, java.runtime.version=1.6.0_35-b10, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.6.0_35\jre\lib\endorsed, os.arch=amd64, maven.compiler.compilerVersion=1.8, java.io.tmpdir=C:\Users\Z_Z.W\AppData\Local\Temp\, project.build.sourceEncoding=UTF-8, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, classworlds.conf=D:\01_opensource\programmes\apache-maven-2.0.7\bin\\..\bin\m2.conf, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jdk1.6.0_35\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\01_opensource\programmes\Sublime Text Build 3126 x64\;D:\01_opensource\programmes\apache-ant-1.9.1\bin;D:\01_opensource\programmes\apache-maven-2.0.7\BIN;C:\Program Files\Java\jdk1.6.0_35\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\01_opensource\programmes\Vim\vim74;C:\Program Files (x86)\cygwin\cygwin-b20\H-i586-cygwin32\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\Z_Z.W\AppData\Roaming\npm;;., maven.compiler.source=1.8, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Z_Z.W, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.6, user.name=Z_Z.W, java.class.path=D:\01_opensource\programmes\apache-maven-2.0.7\bin\\..\boot\classworlds-1.1.jar, java.vm.specification.version=1.0, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.6.0_35\jre, sun.java.command=org.codehaus.classworlds.Launcher package -X, java.specification.vendor=Sun Microsystems Inc., user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_35, java.ext.dirs=C:\Program Files\Java\jdk1.6.0_35\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.6.0_35\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_35\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_35\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_35\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_35\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_35\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_35\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_35\jre\classes, java.vendor=Sun Microsystems Inc., maven.home=D:\01_opensource\programmes\apache-maven-2.0.7\bin\\.., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory D:\02_workspace\myproject\templatedemo-idea\template-quickstart\src\main\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory D:\02_workspace\myproject\templatedemo-idea\template-quickstart\src\main\resources
+[DEBUG] no use filter components
+[DEBUG] z.z.wu:template-quickstart:jar:201610041453-SNAPSHOT (selected for null)
+[DEBUG]   junit:junit:jar:4.11:test (selected for test)
+[DEBUG] Retrieving parent-POM: org.hamcrest:hamcrest-parent::1.3 for project: null:hamcrest-core:jar:null from the repository.
+[DEBUG]     org.hamcrest:hamcrest-core:jar:1.3:test (selected for test)
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:maven-plugin:2.0.2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-compiler::1.5.3 for project: null:plexus-compiler-manager:jar:1.5.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-components::1.1.6 for project: null:plexus-compiler:pom:1.5.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus::1.0.8 for project: org.codehaus.plexus:plexus-components:pom:1.1.6 from the repository.
+[DEBUG]   org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (selected for runtime)
+[DEBUG]       junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven::2.0 for project: org.apache.maven:maven-plugin-api:jar:2.0 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-api
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0:runtime (selected for runtime)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (selected for runtime)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1:runtime (removed - nearer found: 1.0.4)
+[DEBUG]   org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-artifact
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-compilers::1.5.3 for project: null:plexus-compiler-javac:jar:1.5.3 from the repository.
+[DEBUG]   org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.0.5:runtime (removed - nearer found: 1.0.4)
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile' -->
+[DEBUG]   (f) basedir = D:\02_workspace\myproject\templatedemo-idea\template-quickstart
+[DEBUG]   (f) buildDirectory = D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target
+[DEBUG]   (f) classpathElements = [D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes]
+[DEBUG]   (f) compileSourceRoots = [D:\02_workspace\myproject\templatedemo-idea\template-quickstart\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.8
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes
+[DEBUG]   (f) outputFileName = template-quickstart-201610041453-SNAPSHOT
+[DEBUG]   (f) projectArtifact = z.z.wu:template-quickstart:jar:201610041453-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[INFO] [compiler:compile]
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [D:\02_workspace\myproject\templatedemo-idea\template-quickstart\src\main\java]
+[DEBUG] Classpath: [D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes]
+[DEBUG] Output directory: D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes
+[DEBUG] Classpath:
+[DEBUG]  D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes
+[DEBUG] Source roots:
+[DEBUG]  D:\02_workspace\myproject\templatedemo-idea\template-quickstart\src\main\java
+[INFO] Compiling 1 source file to D:\02_workspace\myproject\templatedemo-idea\template-quickstart\target\classes
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Compilation failure
+Failure executing javac, but could not parse the error:
+javac: 无效的目标版本： 1.8
+用法: javac <options> <source files>
+-help 用于列出可能的选项
+
+
+
+Failure executing javac, but could not parse the error:
+javac: 无效的目标版本： 1.8
+用法: javac <options> <source files>
+-help 用于列出可能的选项
+
+
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Trace
+org.apache.maven.BuildFailureException: Compilation failure
+Failure executing javac, but could not parse the error:
+javac: 无效的目标版本： 1.8
+用法: javac <options> <source files>
+-help 用于列出可能的选项
+
+
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoals(DefaultLifecycleExecutor.java:560)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalWithLifecycle(DefaultLifecycleExecutor.java:480)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoal(DefaultLifecycleExecutor.java:459)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoalAndHandleFailures(DefaultLifecycleExecutor.java:311)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeTaskSegments(DefaultLifecycleExecutor.java:278)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:143)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:334)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:125)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:280)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.classworlds.Launcher.launchEnhanced(Launcher.java:315)
+	at org.codehaus.classworlds.Launcher.launch(Launcher.java:255)
+	at org.codehaus.classworlds.Launcher.mainWithExitCode(Launcher.java:430)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:375)
+Caused by: org.apache.maven.plugin.CompilationFailureException: Compilation failure
+Failure executing javac, but could not parse the error:
+javac: 无效的目标版本： 1.8
+用法: javac <options> <source files>
+-help 用于列出可能的选项
+
+
+	at org.apache.maven.plugin.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:516)
+	at org.apache.maven.plugin.CompilerMojo.execute(CompilerMojo.java:114)
+	at org.apache.maven.plugin.DefaultPluginManager.executeMojo(DefaultPluginManager.java:443)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.executeGoals(DefaultLifecycleExecutor.java:539)
+	... 16 more
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2 seconds
+[INFO] Finished at: Tue Oct 04 15:18:23 CST 2016
+[INFO] Final Memory: 24M/367M
+[INFO] ------------------------------------------------------------------------

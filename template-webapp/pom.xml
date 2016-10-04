@@ -1,0 +1,418 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>z.z.wu</groupId>
+  <artifactId>template-webapp</artifactId>
+  <packaging>war</packaging>
+  <version>201610041543-SNAPSHOT</version>
+  <name>template-webapp Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+ <developers>
+        <developer>
+            <id>Z_Z.W</id>
+            <name>Z_Z.W</name>
+            <email>myhongkongzhen@gmail.com</email>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.main.runner>zzwu.std.run.MainRunner</project.main.runner>
+        <dependency-spring.version>1.0.RELEASE</dependency-spring.version>
+        <dependency-common.version>2.0-SNAPSHOT</dependency-common.version>
+        <dependency-highend.version>1.0-SNAPSHOT</dependency-highend.version>
+        <dependency-db.version>1.0.RELEASE</dependency-db.version>
+        <project.jvm.arguments>
+
+            -server
+            -Xss256K
+            -Xmx3000M
+            -Xms3000M
+            -Xmn1500M
+            -XX:+UseParNewGC
+            -XX:PermSize=500M
+            -XX:+PrintHeapAtGC
+            -XX:SurvivorRatio=1
+            -XX:+PrintGCDetails
+            -XX:MaxPermSize=500M
+            -XX:+DisableExplicitGC
+            -XX:+PrintGCTimeStamps
+            -XX:+UseConcMarkSweepGC
+            -XX:+PrintClassHistogram
+            -XX:+UseFastAccessorMethods
+            -XX:SoftRefLRUPolicyMSPerMB=0
+            -XX:+CMSClassUnloadingEnabled
+            -XX:+CMSParallelRemarkEnabled
+            -XX:LargePageSizeInBytes=128M
+            -XX:CMSFullGCsBeforeCompaction=0
+            -XX:+UseCMSInitiatingOccupancyOnly
+            -XX:+UseCMSCompactAtFullCollection
+            -XX:PretenureSizeThreshold=10000000
+            -XX:CMSInitiatingOccupancyFraction=70
+            -Xloggc:"$BASEDIR"/logs/gc.log
+
+            <!-- -XX:MaxTenuringThreshold=8 去掉該配置 -->
+
+            <!-- -server -->
+            <!-- -Xms4g -Xmx4g -Xmn3g -Xss256k -->
+            <!-- -XX:PermSize=64M -->
+            <!-- -XX:MaxPermSize=64M -->
+            <!-- -XX:+UseConcMarkSweepGC -->
+            <!-- -XX:+UseAdaptiveSizePolicy -->
+            <!-- -XX:+CMSClassUnloadingEnabled -->
+            <!-- -XX:+UseCMSCompactAtFullCollection -->
+            <!-- -XX:+DisableExplicitGC -->
+            <!-- -XX:CMSFullGCsBeforeCompaction=10 -->
+            <!-- -XX:CMSMaxAbortablePrecleanTime=5 -->
+            <!-- -XX:+HeapDumpOnOutOfMemoryError -->
+
+            <!-- -Xms4096M -Xmx4096M -->
+            <!-- -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+DisableExplicitGC -->
+            <!-- -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:ParallelGCThreads=8 -->
+            <!-- -XX:NewSize=128m -XX:MaxNewSize=256m -Xss128k -->
+            <!-- -XX:PermSize=64m -XX:MaxPermSize=128m -->
+            <!-- -XX:SurvivorRatio=14 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=16 -->
+
+        </project.jvm.arguments>
+    </properties>
+
+    <!-- 每個項目必填依賴 -->
+    <dependencies>
+        <!-- common -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <!-- JUNIT4 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+
+        <!-- LOGBACK -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+        <!-- 多线程测试工具 Begin -->
+        <!--<dependency>-->
+            <!--<groupId>fakepath</groupId>-->
+            <!--<artifactId>groboutils-core</artifactId>-->
+            <!--<version>5</version>-->
+        <!--</dependency>-->
+        <!-- 多线程测试工具 End -->
+ 
+
+            <dependency>
+                <groupId>com.yyfq.passport</groupId>
+                <artifactId>passport-facade</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <!-- 工具�? -->
+            <dependency>
+                <groupId>zzwu.std</groupId>
+                <artifactId>core-common</artifactId>
+                <version>201601061217-SNAPSHOT</version>
+            </dependency>
+
+            <!-- maven打包插件assembly通用配置 -->
+            <!--<dependency>-->
+            <!--<groupId>zzwu.std</groupId>-->
+            <!--<artifactId>core-assembly-package</artifactId>-->
+            <!--<version>201601101646-SNAPSHOT</version>-->
+            <!--</dependency>-->
+
+            <!-- DB -->
+            <dependency>
+                <groupId>zzwu.std</groupId>
+                <artifactId>dependency-db</artifactId>
+                <version>${dependency-db.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- spring -->
+            <dependency>
+                <groupId>zzwu.std</groupId>
+                <artifactId>dependency-spring</artifactId>
+                <version>${dependency-spring.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- common -->
+            <dependency>
+                <groupId>zzwu.std</groupId>
+                <artifactId>dependency-common</artifactId>
+                <version>${dependency-common.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- 高端依賴 -->
+            <dependency>
+                <groupId>zzwu.std</groupId>
+                <artifactId>dependency-highend</artifactId>
+                <version>${dependency-highend.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies> 
+  <build>
+    <finalName>template-webapp</finalName>
+ 
+        <plugins>
+           
+
+          <!--   <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                
+                  是否让子pom继承true or false  
+               <inherited>true</inherited>
+                plugin也有很多个目标，每个目标具有不同的配置，executions就是设定plugin的目�?
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin> -->
+ 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+               
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+     
+                <plugin>
+                    <groupId>org.mybatis.generator</groupId>
+                    <artifactId>mybatis-generator-maven-plugin</artifactId>
+                    
+                    <configuration>
+                        <!--<configurationFile>${runtime.env}/generatorConfig.xml</configurationFile>-->
+                        <verbose>true</verbose>
+                        <overwrite>true</overwrite>
+                    </configuration>
+                </plugin>
+
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>appassembler-maven-plugin</artifactId>
+                    
+                    <configuration>
+                        <configurationDirectory>conf</configurationDirectory>
+                        <assembleDirectory>${project.build.directory}/${project.build.finalName}</assembleDirectory>
+                        <repositoryLayout>flat</repositoryLayout>
+                        <repositoryName>lib</repositoryName>
+                        <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
+                        <useAsterikClassPath>true</useAsterikClassPath>
+                        <showConsoleWindow>false</showConsoleWindow>
+                        <extraJvmArguments>${project.jvm.arguments}</extraJvmArguments>
+                        <binFileExtensions>
+                            <unix>.sh</unix>
+                        </binFileExtensions>
+                        <platforms>
+                            <!-- <platform>windows</platform> -->
+                            <platform>unix</platform>
+                        </platforms>
+                        <programs>
+                            <program>
+                                <mainClass>${project.main.runner}</mainClass>
+                                <name>start</name>
+                            </program>
+                        </programs>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>assemble</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    
+                    <configuration>
+                        <filters>
+                            <filter>src/main/assembly/filter.properties</filter>
+                        </filters>
+                        <descriptors>
+                            <descriptor>src/main/assembly/assembly.xml</descriptor>
+                        </descriptors>
+                        <!--<encoding>UTF-8</encoding> -->
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!-- jetty:run -->
+                <plugin>
+                    <groupId>org.eclipse.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                   
+                    <configuration>
+                        <scanIntervalSeconds>0</scanIntervalSeconds>
+                        <!--<jvmArgs>-->
+                        <!-- -Drebel.profile_logfile=D:\\workspace1.2\\src\\vos-manager\\target\\logs\\jrebel-profile.log-->
+                        <!--</jvmArgs>-->
+                        <httpConnector>
+                            <port>6666</port>
+                            <idleTimeout>60000</idleTimeout>
+                        </httpConnector>
+                        <webAppConfig>
+                            <contextPath>/</contextPath>
+                        </webAppConfig>
+                        <stopKey/>
+                        <stopPort/>
+                    </configuration>
+                    <!--<executions>-->
+                    <!--<execution>-->
+                    <!--<id>start-jetty</id>-->
+                    <!--<phase>pre-integration-test</phase>-->
+                    <!--<goals>-->
+                    <!--<goal>run</goal>-->
+                    <!--</goals>-->
+                    <!--<configuration>-->
+                    <!--<scanIntervalSeconds>0</scanIntervalSeconds>-->
+                    <!--</configuration>-->
+                    <!--</execution>-->
+                    <!--</executions>-->
+                </plugin>
+            </plugins>
+ 
+ 
+
+
+  </build>
+     <profiles>
+        <!-- mvn clean package -Pmaster -->
+        <profile>
+            <id>dev</id>
+            <properties>
+                <logback.target>target</logback.target>
+                <logback.printsql>debug</logback.printsql>
+                <logback.console><![CDATA[<appender-ref ref="console" />]]></logback.console>
+            </properties>
+            <build>
+                <resources>
+                    <resource>
+                        <targetPath>${project.build.directory}/classes</targetPath>
+                        <directory>src/main/resources</directory>
+                        <filtering>true</filtering>
+                        <includes>
+                            <include>**/*.*</include>
+                        </includes>
+                    </resource>
+                </resources>
+            </build>
+            <!-- 默认�?��环境 -->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <profile>
+            <id>master</id>
+            <properties>
+                <logback.target>/home/userzhen/${project.build.finalName}</logback.target>
+                <logback.printsql>info</logback.printsql>
+                <logback.console></logback.console>
+            </properties>
+
+            <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/resources</directory>
+                        <targetPath>${project.build.directory}/${project.build.finalName}/conf</targetPath>
+                        <excludes>
+                            <exclude>META-INF/**/*.*</exclude>
+                        </excludes>
+                        <filtering>true</filtering>
+                    </resource>
+
+                    <resource>
+                        <targetPath>${project.build.directory}/classes</targetPath>
+                        <directory>src/main/resources</directory>
+                        <filtering>true</filtering>
+                        <includes>
+                            <include>META-INF/**/*.*</include>
+                        </includes>
+                    </resource>
+                </resources>
+
+                <plugins>
+                    <!-- 自動打包生成shell腳本和bat腳本 -->
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>appassembler-maven-plugin</artifactId>
+                    </plugin>
+
+                </plugins>
+            </build>
+        </profile>
+
+        <!--<profile>-->
+        <!--<id>dev-web</id>-->
+        <!--<properties>-->
+        <!--<logback.target>../..</logback.target>-->
+        <!--<logback.printsql>info</logback.printsql>-->
+        <!--<logback.console></logback.console>-->
+        <!--</properties>-->
+        <!--<build>-->
+        <!--<resources>-->
+        <!--<resource>-->
+        <!--<directory>src/main/resources</directory>-->
+        <!--<filtering>true</filtering>-->
+        <!--</resource>-->
+        <!--</resources>-->
+        <!--</build>-->
+        <!--</profile>-->
+
+    </profiles>
+</project>
